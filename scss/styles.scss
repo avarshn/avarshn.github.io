@@ -720,6 +720,29 @@ footer {
         cursor: default;
         font-size: 1.2em;
     }
+
+    // NEW pill-style layout
+    .skill-category {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .skill {
+        background-color: #e8e8ee;
+        color: #2c3e50;
+        padding: 8px 12px;
+        border-radius: 20px;
+        font-size: 14px;
+        display: inline-block;
+
+        &:hover {
+            background-color: #d4e4f0;
+            cursor: default;
+        }
+    }
 }
 
 /*
